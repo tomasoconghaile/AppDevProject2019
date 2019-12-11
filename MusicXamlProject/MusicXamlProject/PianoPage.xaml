@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicXamlProject.PianoPage" Title="PianoPage" BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!-- Title-->
+            <Label Text="Welcome To The Piano Page!" TextColor="Red"
+                FontSize="Large" FontFamily="TimesNewRoman" />
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The piano (or pianoforte) is a musical instrument with a keyboard. A normal piano has 88 keys. Pianos use the keys to move hammers that hit strings inside, making a sound." />
+
+            <!-- Image Link-->
+            <Image Source="piano.jpg" HeightRequest="300" WidthRequest="300"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Pianos come in two basic types: grand pianos and upright pianos. The piano has been an extremely popular instrument in Western classical music since the late 18th century. A person who plays the piano is called a pianist."/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The piano has been a very popular instrument ever since the mid 18th century when it soon replaced the clavichord and the harpsichord. By the early 19th century the sound that the piano made was big enough to fill large concert halls. Smaller pianos were made for use in people's homes."/>
+
+            <Label TextColor="Red" FontSize="Large" Text="Famous Piano Players"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Some famous piano players from the early days of the piano include Dussek, Mozart, Muzio Clementi, John Field and Chopin. In the 19th century Franz Liszt was a very great influence on the piano by composing and performing very difficult music."/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicXamlProject.Quiz" Title="QuizPage" BackgroundImage="music123.png">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Quiz!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label  FontSize="Large" TextColor="White" Text="Question 1"/>
+            <Label  FontSize="Large" TextColor="White" Text="Which Country is linked to the BagPipes?"/>
+
+            <ImageButton Source="Ireland.png"
+                         ClassId="ireland"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked"/>
+           
+            <Label      FontSize="Large" TextColor="White" Text="Ireland"
+                         VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"/>
+
+            <ImageButton Source="England.png"
+                         ClassId="england"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked"/>
+           
+            <Label      FontSize="Large" TextColor="White" Text="England"
+                         VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"/>
+
+            <ImageButton Source="Wales.png"
+                         ClassId="wales"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked"/>
+            <Label      FontSize="Large" TextColor="White" Text="Wales"
+                         VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"/>
+
+            <ImageButton Source="Scotland.png"
+                         ClassId="scotland"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked"/>
+           
+            <Label      FontSize="Large" TextColor="White" Text="Scotland"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"/>
+
+            <Label FontSize="Large" TextColor="White" Text="Question 2"/>
+            <Label  FontSize="Large" TextColor="White" Text="Which instrument is assosciated with being played in Heaven?"/>
+
+            <ImageButton Source="pianoQuiz.jpg"
+                         ClassId="piano"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source="harpQuiz.jpg"
+                         ClassId="harp"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source="guitarQuiz.jfif"
+                         ClassId="guitar"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source="drumQuiz.jfif"
+                         ClassId="drum"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked2"/>
+
+            <Label FontSize="Large" TextColor="White" Text="Final Question"/>
+            <Label  FontSize="Large" TextColor="White" Text="Mozart is a famous musician for which Instrument?"/>
+
+            
+            <ImageButton Source="harpQuiz.jpg"
+                         ClassId="harp"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked3"/>
+
+            <ImageButton Source="drumQuiz.jfif"
+                         ClassId="drum"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked3"/>
+
+            <ImageButton Source="guitarQuiz.jfif"
+                         ClassId="guitar"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked3"/>
+           
+            <ImageButton Source="pianoQuiz.jpg"
+                         ClassId="piano"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250"
+                         HeightRequest="250"
+                         Clicked="ButtonClicked3"/>
+
+            
+
+
+
+
+
+
+
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

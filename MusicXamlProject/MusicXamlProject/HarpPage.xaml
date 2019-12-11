@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicXamlProject.HarpPage" Title="HarpPage" BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!-- Title-->
+            <Label Text="Welcome To The Harp Page" TextColor="Red"
+                FontSize="Large" FontFamily="TimesNewRoman" />
+
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The harp is a musical instrument. It is the second biggest string instrument in an orchestra. It dates back to 4000 BC when the Egyptians used them in holy places. Christian artists often draw angels playing harps in Heaven."/>
+
+            <!-- Image Link-->
+            <Image Source="harp.jpg" HeightRequest="300" WidthRequest="300"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Harp is a string instrument. Each string is tight, so it makes the right sound or note for that string. The strings are tied to the frame.  The frame is usually a wood triangle. It must be strong, so that the many tight strings do not break it.  The side of the triangle that leans on the player's body, is the sound-box. Empty boxes can make sounds louder."/>
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Harp players pluck the strings with their fingers. This makes the strings move so that the strings make sounds. Each string sound is a different musical note. Harp players play songs by plucking the strings in the right order and at the right time. More than one string can be plucked at the same time."/>
+            <Label TextColor="Red" FontSize="Large" Text="Famous Harp Players"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Loreena McKennitt, Jon Anderson, Carlos Salzedo, King David, Joanna Newsom, Marco Marazzoli, Jean-Baptiste Krumpholz, Synne Øverland Knudsen, Juan Hidalgo and Ursula Holliger"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

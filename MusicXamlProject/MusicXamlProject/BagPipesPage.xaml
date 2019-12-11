@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicXamlProject.BagPipesPage" Title="BagPipesPage" BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Title-->
+            <Label Text="Welcome To The BagPipesPage"
+               FontSize="Large" FontFamily="TimesNewRoman" TextColor="Red" />
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The bagpipes are a musical instrument. They are sometimes just called pipes. They have a bag that holds air. The player keeps the bag full of air by blowing into it with a tube or pumping it with a bellows. To make music, the bag is pressed and the air comes out through a kind of flute or chanter."/>
+
+            <!-- Image Link-->
+            <Image Source="bagpipes.jpg" HeightRequest="300" WidthRequest="300"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="There are usually one or more other tubes coming from the bag that make sounds whenever the bag is squeezed, called drones. Each drone normally plays a different note, and stays on the same note the whole time it is playing, to play a harmony with the chanter. The sounds are made by a single or, more commonly, double reed which vibrates when air is blown over it."/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Scotland is traditionally linked to the bagpipes, and many pipe tunes come from there. Many, many other places, however, also have different types of bagpipes: over all of Europe, some of North Africa, and into the Middle East."/>
+
+            <Label TextColor="Red" FontSize="Large" Text="Famous BagPipes Players"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Stuart Liddell, Gordon Duncan, Jack Lee, Fred Morrison, Hevia, Angus MacColl, Bill Millin, John D. Burgess, Alasdair Gillies and Eric Rigler."/> 
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

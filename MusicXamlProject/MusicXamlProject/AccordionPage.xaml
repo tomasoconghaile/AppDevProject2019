@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicXamlProject.AccordionPage" Title="AccordionPage" BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <!-- Title-->
+            <Label Text="Welcome To The Accordion Page" TextColor="Red"
+                FontSize="Large" FontFamily="TimesNewRoman" />
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Accordions are a family of box-shaped musical instruments of the bellows-driven free-reed aerophone type, referred to as a squeezebox. A person who plays the accordion is called an accordionist."/>
+
+            <!-- Image Link-->
+            <Image Source="accordion.jpg" HeightRequest="300" WidthRequest="300"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The instrument is played by compressing or expanding the bellows while pressing buttons or keys, causing pallets to open, which allow air to flow across strips of brass or steel, called reeds. These vibrate to produce sound inside the body. The performer normally plays the melody on buttons or keys on the right-hand manual, and the accompaniment, consisting of bass and pre-set chord buttons, on the left-hand manual."/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The accordion is widely spread across the world. In some countries it is used in popular music, whereas in other regions such as Europe, North America and other countries in South America it tends to be more used for dance-pop and folk music and is often used in folk music in Europe, North America and South America."/>
+
+            <Label TextColor="Red" FontSize="Large" Text="Famous Accordion Players"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Lawrence Welk, Myron Floren, Guido Deiro, Henry Doktorski III, Pietro Deiro, illiam Schimmel, Charles Magnante, Pietro Frosini, Dick Contino and Mogens Ellegaard"/>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

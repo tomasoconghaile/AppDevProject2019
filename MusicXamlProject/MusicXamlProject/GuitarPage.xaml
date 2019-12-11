@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicXamlProject.GuitarPage" Title="GuitarPage"  BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!-- Title-->
+            <Label Text="Welcome To The Guitar Page!"
+                FontSize="Large" FontFamily="TimesNewRoman" TextColor="Red"  />
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="The guitar is a string instrument which is played by plucking the strings. The main parts of a guitar are the body, the fretboard, the headstock and the strings. Guitars are usually made from wood or plastic. Their strings are made of steel or nylon." />
+
+            <!-- Image Link-->
+            <Image Source="pic.jpg" HeightRequest="300" WidthRequest="300"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Acoustic or Folk Guitar - The acoustic guitar is similar to the classical guitar, but generally has steel strings and a thinner neck. It's usually played with a pick and is used in all sorts of music from country and folk to pop and rock."/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Electric Guitar - The electric guitar uses electronic pickups and electric amplifiers (amps) rather than a large hollow body. All sorts of interesting sounds can be made with an electric guitar using different amplifiers, distorters, and effects. They are very popular in rock, pop, and jazz music."/>
+
+            <Label TextColor="Red" FontSize="Large" Text="Famous Guitar Players"/>
+
+            <Label TextColor="LimeGreen" FontSize="Medium" Text="Trey Anastasio, Dan Auerbach (The Black Keys), Brian Bell (Weezer), Ritchie Blackmore (Deep Purple), Carl Broemel (My Morning Jacket), James Burton, Jerry Cantrell (Alice in Chains), Gary Clark Jr., Billy Corgan, Steve Cropper, Dave Davies (The Kinks), Anthony DeCurtis (Contributing editor, Rolling Stone."/>
+
+           
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
